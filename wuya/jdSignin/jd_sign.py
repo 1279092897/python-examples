@@ -1,8 +1,9 @@
 #pt_key=AAJi2BVXADDKWR6SHbo_ARE3SS6Bv7y-nKo0aWKLQjiYCcmreYfTUHN15o-nlRdh2M3iwV5kYv8; pt_pin=zhongulou; 
 import requests
 
-pt_key="替换为自己的pt_key"
-pt_pin="替换为自己的pt_pin"
+pt_key="AAJjCN7PADD3lTSld5mjbII4fvhWB55XA70FGlWJGoTA8_eAwliCEXPnCqU7kD8fgq9T3xN0zPU
+"
+pt_pin="jd_7eca32f423815"
 cookie="pt_key={}; pt_pin={}".format(pt_key, pt_pin)
 url = "https://api.m.jd.com/client.action?functionId=signBeanAct&body=%7B%22fp%22%3A%22-1%22%2C%22shshshfp%22%3A%22-1%22%2C%22shshshfpa%22%3A%22-1%22%2C%22referUrl%22%3A%22-1%22%2C%22userAgent%22%3A%22-1%22%2C%22jda%22%3A%22-1%22%2C%22rnVersion%22%3A%223.9%22%7D&appid=ld";
 headers = {
